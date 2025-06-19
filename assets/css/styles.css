@@ -1,0 +1,94 @@
+:root{
+    --primary-color: #1EBFC1;
+    --secondary-color: #2AC9BF;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+.main-content{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+/* Header */
+.header{
+    padding-top: 46px;
+}
+
+.header.fixed{
+    position: sticky;
+    top: -46px;
+}
+
+.header .body{
+    display: flex;
+    align-items: center;
+    padding: 8px 0 7px;
+}
+
+.header .list{
+    display: flex;
+    margin-left: 235px;
+}
+
+.header .list li a{
+    display: inline-block;
+    padding: 8px 19.5px;
+    color: #2F3A3B;
+    font-size: 1.6rem;
+}
+
+.header .list li.active,
+.header .list li:hover a{
+    text-shadow: 0.5px 0 0 currentColor;
+}
+
+.header .cta-btn{
+    margin-left: auto;
+}
+
+.header .sign-in-btn{
+    margin-right: 24px;
+    color: #494949;
+    font-size: 1.6rem;
+}
+
+.header .sign-up-btn{
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid currentColor;
+    color: #1EBFC1;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    min-width: 108px;
+    line-height: 48px;
+}
