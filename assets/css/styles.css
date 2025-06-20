@@ -583,6 +583,11 @@ a{
     border-radius: 50%;
 }
 
+.feedback .avatar:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
 .feedback .avatar-1{
     top: 256px;
 }
@@ -615,4 +620,27 @@ a{
 .feedback .avatar-6{
     bottom: 29px;
     right: 32px;
+}
+
+/* Call To Action */
+.cta{
+    padding: 76px 0 88px;
+    background: #DEF6F5;
+}
+
+.cta .body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 154px;
+}
+
+.cta .heading{
+    color: #070707;
+}
+
+.cta .cta-subtitle{
+    margin-top: 18px;
+    color: #767E7E;
+    font-size: 1.8rem;
 }
