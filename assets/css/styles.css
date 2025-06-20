@@ -60,6 +60,25 @@ a{
     line-height: 56px; /* 133.333% */
 }
 
+.line-clamp{
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-2{
+    --line-clamp: 2;
+}
+
+.line-clamp.line-3{
+    --line-clamp: 3;
+}
+
+.line-clamp.line-4{
+    --line-clamp: 4;
+}
+
 /* Header */
 .header{
     padding-top: 46px;
@@ -97,6 +116,10 @@ a{
 
 .header .cta-btn{
     margin-left: auto;
+}
+
+.header .cta-btn a:hover{
+    opacity: 0.9;
 }
 
 .header .sign-in-btn{
@@ -441,6 +464,11 @@ a{
     line-height: normal;
 }
 
+.courses .item .thumb:hover,
+.courses .course-info .course-title:hover a{
+    opacity: 0.9;
+}
+
 .courses .course-fee{
     margin-top: 16px;
     color: #767E7E;
@@ -643,4 +671,71 @@ a{
     margin-top: 18px;
     color: #767E7E;
     font-size: 1.8rem;
+}
+
+/* Footer */
+.footer{
+    margin-top: 65px;
+    padding: 65px 0 50px;
+    background: #FFF;
+}
+
+.footer .footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .title{
+    color: #2E2E2E;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .list{
+    margin-top: 26px;
+}
+
+.footer .list li{
+    margin-top: 20px;
+}
+
+.footer .list a,
+.footer .social a{
+    color: #535353;
+    font-size: 1.6rem;
+}
+
+.footer .socials{
+    margin-top: 18px;
+}
+
+.footer .social{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.footer .list a:hover,
+.footer .social a:hover,
+.footer .social:hover svg{
+    opacity: 0.7;;
+}
+
+.footer .social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+}
+
+.footer .copyright{
+    margin-top: 80px;
+}
+
+.footer .copyright p{
+    color: #B0B5B4;
+    font-size: 1.8rem;
+    text-align: center;
 }
