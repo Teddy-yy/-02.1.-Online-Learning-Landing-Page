@@ -367,7 +367,7 @@ a{
 /* Course */
 .courses {
     margin-top: 65px;
-    padding: 65px 0;
+    padding: 65px 0 189px;
 }
 
 .courses-list .text{
@@ -475,10 +475,144 @@ a{
     margin-right: 10px ;
 }
 
-.courses .course-classes{
-    
+/* Stats */
+.stats {
+    margin-top: 135px;
+    padding: 65px 0;
 }
 
-.courses .course-duration{
-    
+.stats .body{
+    display: flex;
+    justify-content: space-between;
+    width: 862px;
+    margin: 0 auto;
+}
+
+.stats .stat-item{
+    text-align: center;
+}
+
+.stats span{
+    display: block;
+}
+
+.stats .stat-number{
+    color: #0D1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.stats .stat-label{
+    margin-top: 11px;
+    color: #767E7E;
+    font-size: 1.8rem;
+}
+
+/* Feedbacks */
+.feedback{
+    margin-top: 134px;
+    padding: 65px 0;
+}
+
+.feedback .body{
+    display: flex;
+    align-items: center;
+    gap: 0 72px;
+}
+
+.feedback .content{
+    width: 36%;
+}
+
+.feedback .text{
+    margin-top: 27px;
+    color: #5D6564;
+    font-size: 3.2rem;
+    line-height: 1.5; /* 150% */
+}
+
+.feedback .author{
+    margin-top: 33px;
+    color: #767E7E;
+    font-size: 1.6rem;
+}
+
+.feedback .author span{
+    color: #070707;
+    font-weight: 500;
+}
+
+.feedback .controls{
+    margin-top: 52px;
+    display: flex;
+}
+
+.feedback .control-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #FFF;
+    background: var(--primary-color);
+    border: none;
+}
+
+.feedback .control-btn:first-child{
+    margin-right: 30px;
+}
+
+.feedback .control-btn:hover{
+    color: var(--primary-color);
+    background-color: #FFF;
+    border: 1px solid currentColor;
+    cursor: pointer;
+}
+
+.feedback .avatars{
+    position: relative;
+    width: 64%;
+    min-height: 481px;
+}
+
+.feedback .avatar{
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+}
+
+.feedback .avatar-1{
+    top: 256px;
+}
+
+.feedback .avatar-2{
+    left: 144px;
+    width: 92px;
+    height: 92px;
+}
+
+.feedback .avatar-3{
+    left: 212px;
+    bottom: 0;
+}
+
+.feedback .avatar-4{
+    left: 273px;
+    top: 107px;
+    width: 235px;
+    height: 235px;
+}
+
+.feedback .avatar-5{
+    right: 0;
+    top: 19px;
+    width: 110px;
+    height: 110px;
+}
+
+.feedback .avatar-6{
+    bottom: 29px;
+    right: 32px;
 }
