@@ -46,6 +46,20 @@ a{
     opacity: 0.9;
 }
 
+.heading.lv1{
+    color: #0D1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16; /* 116.129% */
+}
+
+.heading.lv2{
+    color: #0D1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 56px; /* 133.333% */
+}
+
 /* Header */
 .header{
     padding-top: 46px;
@@ -123,12 +137,8 @@ a{
     font-size: 1.4rem;
 }
 
-.hero .title{
+.hero .heading{
     margin-top: 18px;
-    color: #0D1111;
-    font-size: 6.2rem;
-    font-weight: 700;
-    line-height: 1.16; /* 116.129% */
 }
 
 .hero .desc{
@@ -289,4 +299,67 @@ a{
     font-size: 10px;
     font-weight: 500;
     background: var(--primary-color);
+}
+
+/* Features */
+.features{
+    margin-top: 65px;
+    padding: 65px 0;
+}
+
+.features .body{
+    width: 1024px;
+}
+
+.features .text{
+    color: #767E7E;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .heading{
+    margin-top: 18px;
+    width: 577px;
+}
+
+.features .desc{
+    margin-top: 18px;
+    width: 590px;
+    color: #767E7E;
+    font-size: 18px;
+    line-height: normal;
+}
+
+.features .features-list{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .item{
+    width: 22%;
+}
+
+.features .feature-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 102px;
+    height: 106px;
+    background: var(--bg);
+    border-radius: 15px;
+}
+
+.features .feature-title{
+    margin-top: 26px;
+    color: #0D1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.features .feature-description{
+    margin-top: 16px;
+    color: #9DA6A5;
+    font-size: 1.6rem;
+    line-height: 1.69; /* 168.75% */
 }
