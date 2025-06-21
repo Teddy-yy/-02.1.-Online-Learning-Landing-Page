@@ -582,9 +582,9 @@ a{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    color: #FFF;
-    background: var(--primary-color);
-    border: none;
+    color: var(--primary-color);
+    background: #FFF;
+    border: 1px solid currentColor;
 }
 
 .feedback .control-btn:first-child{
@@ -592,9 +592,9 @@ a{
 }
 
 .feedback .control-btn:hover{
-    color: var(--primary-color);
-    background-color: #FFF;
-    border: 1px solid currentColor;
+    color: #FFF;
+    background: var(--primary-color);
+    border: none;
     cursor: pointer;
 }
 
@@ -719,6 +719,7 @@ a{
 .footer .social a:hover,
 .footer .social:hover svg{
     opacity: 0.7;;
+    text-decoration: underline;
 }
 
 .footer .social-icon{
